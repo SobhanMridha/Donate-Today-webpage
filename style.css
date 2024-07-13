@@ -136,4 +136,14 @@ body {
   .btn-container {
     text-align: center;
   }
+
+  .box-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .box {
+    margin: 0 auto;
+  }
+
 }
