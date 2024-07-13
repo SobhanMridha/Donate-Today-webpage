@@ -224,7 +224,7 @@ body {
 }
 
 .subscribe-info button {
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
   padding: 14px 43px;
   border-radius: 0px 5px 5px 0px;
@@ -237,6 +237,31 @@ body {
 .subscribe-info button:hover {
   color: #121212;
   cursor: pointer;
+}
+
+/* footer section  */
+
+.footer-container {
+  background-color: #0b0d17;
+  height: 177px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-contant h3 {
+  color: #ff5959;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.footer-contant p {
+  color: #d9dbe1;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* Resposive  */
@@ -334,5 +359,4 @@ body {
     gap: 10px;
     flex-direction: column;
   }
-  
 }
