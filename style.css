@@ -115,7 +115,7 @@ body {
 
 .horizon-line {
   height: 1px;
-  width: 765px;
+  max-width: 765px;
   background-color: #dadada;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -152,6 +152,44 @@ body {
   margin-right: 24px;
 }
 
+/* help section  */
+
+.help-container {
+  margin-bottom: 100px;
+  padding: 0 250px;
+}
+
+.top-part {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.top-part img {
+  border-radius: 8px;
+}
+
+.top-part p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.bottom-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-part img {
+  border-radius: 8px;
+}
+
+.bottom-part p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 /* Resposive  */
 
 @media screen and (max-width: 576px) {
@@ -161,7 +199,11 @@ body {
 
   .banner-contant {
     text-align: start;
-    padding: 5px;
+    padding: 10px;
+  }
+
+  .banner-contant h3 {
+    font-size: 45px;
   }
 
   .btn-container {
@@ -183,12 +225,44 @@ body {
 
   .card-section {
     flex-direction: column;
-    gap: 10px; 
-    margin-left: 40px;
+    gap: 10px;
   }
 
   .card {
     width: 80%;
     padding: 30px 10px;
+    margin: 0 auto;
   }
+
+  .top-part {
+    flex-direction: column-reverse;
+  }
+
+  .top-part-des {
+    margin-left: 25px;
+  }
+   
+   .help-container {
+    padding: 0;
+    margin: 0;
+   }
+
+  .help-img {
+    text-align: start;
+    margin-bottom: 10px;
+  }
+
+  .help-img img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .bottom-part {
+    flex-direction: column;
+  }
+
+  .bottom-part-des {
+    margin-left: 25px;
+  }
+
 }
