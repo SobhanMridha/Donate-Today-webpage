@@ -239,7 +239,7 @@ body {
   }
 
   .top-part-des {
-    margin-left: 25px;
+    margin-left: 10px;
   }
    
    .help-container {
@@ -253,7 +253,7 @@ body {
   }
 
   .help-img img {
-    width: 300px;
+    width: 350px;
     height: 300px;
   }
 
@@ -262,7 +262,11 @@ body {
   }
 
   .bottom-part-des {
-    margin-left: 25px;
+    margin-left: 10px;
+  }
+
+  .help-btn {
+    text-align: center;
   }
 
 }
