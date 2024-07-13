@@ -12,7 +12,7 @@ body {
 /* repeated part  */
 
 .btn {
-  color: #ffffff;
+  color: #f8f4f4;
   font-size: 20px;
   font-weight: 600;
   padding: 16px 12px;
@@ -33,7 +33,7 @@ body {
 }
 
 .paragraph {
-  color: #ffffff;
+  color: #e9e6e6;
   font-size: 22px;
   font-size: 400;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .banner-contant h3 {
-  color: #ffffff;
+  color: #ebe7e4;
   font-size: 65px;
   font-weight: 700;
 }
@@ -66,4 +66,21 @@ body {
 .banner-contant p {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .banner-container {
+    background-position: right center;
+    
+  }
+
+  .banner-contant {
+    text-align: start;
+    padding: 5px;
+  }
+
+  .btn-container {
+    text-align: center;
+  }
+  
 }
